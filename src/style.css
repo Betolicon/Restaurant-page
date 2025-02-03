@@ -14,7 +14,7 @@ html, body{
 body{
     font-family: "Spicy Rice";
     display: grid;
-    grid-template-rows: 80px 3fr;
+    grid-template-rows: 1fr 4fr;
     background-color: lightblue;
 }
 
@@ -22,7 +22,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px;
+    padding: 5vw 3vh;
 }
 
 .header{
@@ -104,4 +104,5 @@ h1{
 .menuText{
     justify-self: center;
     padding: 0;
+    font-size: clamp(1rem, 2vw + 1rem, 3 rem);
 }

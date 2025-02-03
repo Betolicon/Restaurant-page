@@ -15,7 +15,7 @@ export function createMenu() {
     ¡Una opción que nunca pasa de moda!
     `
     p.classList.add('menuText')
-    const  imag2 = document.createElement("img");
+    const imag2 = document.createElement("img");
     imag2.src = margarita;
     imag2.classList.add('menu')
     content.append(h1)

@@ -14,7 +14,7 @@ html, body{
 body{
     font-family: "Spicy Rice";
     display: grid;
-    grid-template-rows: 1fr 4fr;
+    grid-template-rows: auto 1fr;
     background-color: lightblue;
 }
 
@@ -41,7 +41,7 @@ body{
 .nav{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 40px;
+    gap: 40px;
     padding: 8px;
 }
 
